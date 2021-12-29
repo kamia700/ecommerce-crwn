@@ -1,8 +1,8 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Accessories',
+    routeName: 'accessories',
     items: [
       {
         id: 1,
@@ -62,8 +62,8 @@ const SHOP_DATA = [
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Shoes',
+    routeName: 'shoes',
     items: [
       {
         id: 1,
@@ -117,8 +117,8 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Clothing',
+    routeName: 'clothing',
     items: [
       {
         id: 1,
