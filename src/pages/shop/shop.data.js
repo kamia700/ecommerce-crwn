@@ -6,57 +6,66 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Pernell',
+        imageUrl: 'https://i.ibb.co/d4YtGYV/Pernell.png',
+        price: 35,
+        description: 'Sunglasses'
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'Rithik',
+        imageUrl: 'https://i.ibb.co/KFvqkBb/Rithik.png',
+        price: 40,
+        description: 'Sunglasses'
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'Tiberi',
+        imageUrl: 'https://i.ibb.co/2yKc1T9/Tiberi.png',
+        price: 90,
+        description: 'Elegant baroque pearl earrings and bracelet'
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'Brineu',
+        imageUrl: 'https://i.ibb.co/883BMFB/Brineu.png',
+        price: 25,
+        description: 'Woven Leather and Silver-Tone Wrap Bracelet'
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Novella',
+        imageUrl: 'https://i.ibb.co/5xLKHpX/Novella.png',
+        price: 35,
+        description: 'Sunglasses'
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Meebo',
+        imageUrl: 'https://i.ibb.co/XpQgJG1/Meebo.png',
+        price: 95,
+        description: 'Purple baroque pearl bracelet and earrings'
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Jungle',
+        imageUrl: 'https://i.ibb.co/1Kps6Mr/Jungle.png',
+        price: 80,
+        description: 'Baroque pearl gold ring'
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-        price: 14
+        name: 'Zumba',
+        imageUrl: 'https://i.ibb.co/sFFZx7G/Zumba.png',
+        price: 45,
+        description: 'Silver pendant with chain'
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-        price: 16
+        name: 'Woody',
+        imageUrl: 'https://i.ibb.co/fFJFPBy/Woody.png',
+        price: 25,
+        description: 'Classic leather belt'
       }
     ]
   },

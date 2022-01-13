@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 350px;
   align-items: center;
+  position: relative;
 
   .image {
     width: 100%;
@@ -12,6 +13,25 @@
     background-position: center;
     margin-bottom: 5px;
     background-repeat: no-repeat;
+  }
+
+  .custom-button {
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 255px;
+    display: none;
+  }
+
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+    }
   }
 
   .collection-footer {
@@ -23,11 +43,24 @@
 
     .name {
       width: 90%;
-      margin-bottom: 15px;
     }
 
     .price {
       width: 10%;
+    }
+
+    .description {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.75;
+      color: #777;
+    } 
+
+    .collection-text {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      margin-right: 10px;
     }
   }
 }
