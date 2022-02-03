@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { Provider } from 'react-redux'
+import { Provider } from 'react-redux';
+
+// have to wrap the root component with PersistGate. This component delays the rendering of the app's UI until the persisted state is retrieved and saved to redux.
+import { PersistGate } from 'redux-persist/integration/react';
 
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import store from './redux/store';
+import { store, persistor } from './redux/store';
 
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
-      <App />
+      <PersistGate persistor={persistor}>
+        <App />
+      </PersistGate>  
     </BrowserRouter>  
   </Provider>,
   document.getElementById('root')
