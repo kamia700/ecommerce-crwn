@@ -45,22 +45,23 @@ class App extends React.Component {
    
   render () {
     return (
-    <div>
-      <Header/>
-      <Switch>
-        <Route exact path='/' component ={HomePage}></Route>
-        <Route path='/shop' component ={ShopPage}></Route>
-        <Route exact path='/signin' render ={()=>
-              this.props.currentUser ? (
-                <Redirect to='/' />
-              ) : (
-                <SignInAndSignUpPage />
-              )}
-              />
-        <Route exact path='/checkout' component ={CheckoutPage}></Route>
-      </Switch>
-    </div>
-  )};
+      <div>
+        <Header/>
+        <Switch>
+          <Route exact path='/' component ={HomePage}></Route>
+          <Route path='/shop' component ={ShopPage}></Route>
+          <Route exact path='/signin' render ={()=>
+                this.props.currentUser ? (
+                  <Redirect to='/' />
+                ) : (
+                  <SignInAndSignUpPage />
+                )}
+                />
+          <Route exact path='/checkout' component ={CheckoutPage}></Route>
+        </Switch>
+      </div>
+    )
+  };
 };
 
 const mapStateToProps = createStructuredSelector({
