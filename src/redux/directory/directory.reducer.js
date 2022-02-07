@@ -1,5 +1,3 @@
-import DirectoryActionTypes from './directory.types';
-
 const INITIAL_STATE = {
   sections: [
     {
@@ -43,11 +41,6 @@ const INITIAL_STATE = {
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
-    case DirectoryActionTypes.TOGGLE_CART_HIDDEN:
-      return {
-        ...state,
-        hidden: !state.hidden
-      }
     default:
       return state;
   }
